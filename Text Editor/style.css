@@ -1,0 +1,95 @@
+
+
+body {
+    color: black;
+    
+    max-width: 49em;
+    margin: 0 auto;
+
+}
+
+div:focus {
+    outline: none;
+}
+
+.heading {
+    font-size: 48px;
+    padding-top: 50px;
+    border: black 1px solid;
+    padding: 10px;
+}
+
+.content {
+    padding-top: 10px;
+   
+    border: black 1px solid;
+    height: 400px;
+    
+}
+
+button{
+    height: 50px;
+    width: 80px;
+    background-color: rgba(0,0,0,0.2);
+}
+.text-bold{
+    font-weight: bold;
+}
+
+.text-italic{
+    font-style: italic;
+}
+
+.text-underlined{
+text-decoration-line: underline;
+text-decoration-color: black;
+}
+
+.text-align-right{
+    text-align: right;
+}
+
+.text-normal{
+    font-weight: normal;
+    font-style: normal;
+    
+}
+
+.text-bold-italic{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.text-bold-italic-underlined{
+    text-decoration-line: underline;
+    text-decoration-color: black; 
+    font-weight: bold;
+    font-style: italic;
+}
+
+.text-style-normal{
+    font-style: normal;
+}
+
+.text-weight-normal{
+    font-weight: normal;
+}
+
+.text-decoration-normal{
+    text-decoration-line: underline;
+     text-decoration-color: white;;
+}
+
+.text-bold-underlined{
+    font-weight: bold;
+    text-decoration-line: underline;
+    text-decoration-color: black; 
+}
+
+.text-italic-underlined{
+    font-style: italic;
+    text-decoration-line: underline;
+    text-decoration-color: black; 
+}
+
+
